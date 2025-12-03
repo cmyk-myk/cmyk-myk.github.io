@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>GMod Loading Screen</title>
+    <style>
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            overflow: hidden; /* Ukrywa paski przewijania */
+            background-color: black;
+        }
+        .background {
+            /* Link do Twojego obrazka */
+            background-image: url('baner.png'); 
+            
+            /* Ustawienia skalowania */
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover; /* Rozciąga obrazek na cały ekran */
+            
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="background"></div>
+</body>
+</html>
